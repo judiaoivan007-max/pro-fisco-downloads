@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Pró-Fisco Piloto · Instalador</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #171717;
+      background: #f7f7f7;
+      font-synthesis: none;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      display: grid;
+      min-height: 100vh;
+      min-height: 100svh;
+      margin: 0;
+      padding: 1.25rem;
+      place-items: center;
+    }
+
+    main {
+      width: min(100%, 32rem);
+      padding: clamp(1.5rem, 6vw, 3rem);
+      border: 1px solid #e4e4e4;
+      border-radius: 1.5rem;
+      background: #fff;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 0 0 2rem;
+      font-weight: 650;
+    }
+
+    .mark {
+      display: grid;
+      width: 2.25rem;
+      height: 2.25rem;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: #171717;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.9rem, 7vw, 2.5rem);
+      line-height: 1.1;
+      font-weight: 650;
+      letter-spacing: -0.045em;
+    }
+
+    .version {
+      margin: 0.75rem 0 1.75rem;
+      color: #525252;
+      line-height: 1.5;
+    }
+
+    .download {
+      display: inline-flex;
+      min-height: 3rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0.625rem 1.375rem;
+      border-radius: 999px;
+      color: #fff;
+      background: #171717;
+      font-weight: 650;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .download:hover {
+      background: #353535;
+    }
+
+    .download:focus-visible {
+      outline: 2px solid #171717;
+      outline-offset: 4px;
+    }
+
+    .note {
+      margin: 0.875rem 0 0;
+      color: #595959;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand"><span class="mark" aria-hidden="true">P</span> Pró-Fisco</p>
+    <h1>Instalador do piloto</h1>
+    <p class="version">Versão 0.4.12 · Windows de 64 bits</p>
+    <a class="download" href="./Pro-Fisco-Piloto-Setup-0.4.12-x64.exe" download>Descarregar instalador</a>
+    <p class="note">Instalador de teste sem assinatura digital.</p>
+  </main>
+</body>
+</html>
